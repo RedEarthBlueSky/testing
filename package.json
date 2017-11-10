@@ -4,16 +4,24 @@
   "description": "Configuring a basic environment",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error:  no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RedEarthBlueSky/testing.git"
   },
-  "author": "Ian Salt",
+  "author": "Ian Salt <ian@isalt.digital>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RedEarthBlueSky/testing/issues"
   },
-  "homepage": "https://github.com/RedEarthBlueSky/testing#readme"
+  "homepage": "https://github.com/RedEarthBlueSky/testing#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }

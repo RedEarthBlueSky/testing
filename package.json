@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Configuring a basic environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedEarthBlueSky/testing.git"
+  },
+  "author": "Ian Salt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedEarthBlueSky/testing/issues"
+  },
+  "homepage": "https://github.com/RedEarthBlueSky/testing#readme"
+}
